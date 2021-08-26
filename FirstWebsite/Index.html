@@ -3,174 +3,191 @@
 	<head> 
 		<title> Toy Story Store </title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./CSS/shared.css">
+		<link rel="stylesheet" href="./CSS/animations.css">
 	</head>
 	<body>
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><!-- to the left is abutton -->
-					<li>HOME</li></a>
-					<a href="#toys"><li>TOYS</li></a>
-					<a href="#signup"><li>SIGN-UP</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+						<a href="#home" ><li>HOME</li></a>
+						<a href="#gallery"><li>GALLERY</li></a>
+						<a href="#contact"><li>SIGN-UP</li></a>
 				</ul>
 			</div>
+
 		</div>
 		<!-- END NAV -->
-		
+
 		<!-- HOME page -->
 		<div id="home">
-			<div>
-				<div>	
-					<span> The Toy Story Store</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Toy Story Store</span>
 				</div>
 			</div>
 		</div> 
 		<!-- END HOME -->
-		
-		<!-- Gallery (toys) -->
-		<section>
-			<div id="toys">
-				<h1> Toys </h1>
-				<div>
-					
-					<!-- Photo container of toys 1 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_1.png" alt="error in displaying image">
-							<div>
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
+
+		<!-- GALLERY-->
+		<section id="gallery">
+			<div class="container">
+				<h1>Gallery</h1>
+				<div class="flex-container">
+
+					<!-- PHOTO CONTAINER 1-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_1.png" alt="err" width="300px" height="169px">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge </h3>
+								<p>We have dozens of toys for sale! signup for our newsletter!</p>
 							</div>
 						</div>
 					</div>
-					<!-- END Photo container 1 -->
-					
-					<!-- Photo container of toys 2 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_2.jpeg" alt="error in displaying image">
-							<div> <!-- below is the overlay text for the above img -->
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
-							</div>
+				<!-- END PHOTO CONTAINER 1-->
+
+				<!-- PHOTO CONTAINER 2-->
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./Images/Thumb/thumbnail_2.jpeg" alt="err" width="300px" height="169px">
+						<div class="photo-overlay">
+							<h3>Click to Enlarge </h3>
+							<p>We have dozens of toys for sale! signup for our newsletter!</p>
 						</div>
 					</div>
-					<!-- END Photo container 2 -->
-					
-					<!-- Photo container of toys 3 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_3.jpg" alt="error in displaying image">
-							<div>
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
-							</div>
-						</div>
+				</div>
+			<!-- END PHOTO CONTAINER 2-->
+
+			<!-- PHOTO CONTAINER 3-->
+			<div class="photo-container">
+				<div class="photo">
+					<img src="./Images/Thumb/thumbnail_3.jpg" alt="err" width="300px" height="169px">
+					<div class="photo-overlay">
+						<h3>Click to Enlarge </h3>
+						<p>We have dozens of toys for sale! signup for our newsletter!</p>
 					</div>
-					<!-- END Photo container 3 -->
-					
-					<!-- Photo container of toys 4 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_4.jpg" alt="error in displaying image">
-							<div>
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
-							</div>
-						</div>
-					</div>
-					<!-- END Photo container 4 -->
-					
-					<!-- Photo container of toys 5 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_5.jpg" alt="error in displaying image">
-							<div>
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
-							</div>
-						</div>
-					</div>
-					<!-- END Photo container 5 -->
-					
-					<!-- Photo container of toys 6 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_6.jpg" alt="error in displaying image">
-							<div>
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
-							</div>
-						</div>
-					</div>
-					<!-- END Photo container 6 -->
-					
-					<!-- Photo container of toys 7 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_7.jpg" alt="error in displaying image">
-							<div>
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
-							</div>
-						</div>
-					</div>
-					<!-- END Photo container 7 -->
-					
-					<!-- Photo container of toys 8 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_8.jpg" alt="error in displaying image">
-							<div>
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
-							</div>
-						</div>
-					</div>
-					<!-- END Photo container 8 -->
-					
-					<!-- Photo container of toys 9 -->
-					<div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_9.jpg" alt="error in displaying image">
-							<div>
-							<h3>Click to Enlarge</h3>
-							<p>We have several iconic toys from Toy Story! Sign up for our
-							newsletter to stay up to date! </p>
-							</div>
-						</div>
-					</div>
-					<!-- END Photo container 9 -->
-				
+				</div>
+			</div>
+		<!-- END PHOTO CONTAINER 3-->
+
+		<!-- PHOTO CONTAINER 4-->
+		<div class="photo-container">
+			<div class="photo">
+				<img src="./Images/Thumb/thumbnail_4.jpg" alt="err" width="300px" height="169px">
+				<div class="photo-overlay">
+					<h3>Click to Enlarge </h3>
+					<p>We have dozens of toys for sale! signup for our newsletter!</p>
+				</div>
+			</div>
+		</div>
+	<!-- END PHOTO CONTAINER 4-->
+
+	<!-- PHOTO CONTAINER 5-->
+	<div class="photo-container">
+		<div class="photo">
+			<img src="./Images/Thumb/thumbnail_5.jpg" alt="err" width="300px" height="169px">
+			<div class="photo-overlay">
+				<h3>Click to Enlarge </h3>
+				<p>We have dozens of toys for sale! signup for our newsletter!</p>
+			</div>
+		</div>
+	</div>
+<!-- END PHOTO CONTAINER 5-->
+
+<!-- PHOTO CONTAINER 6-->
+<div class="photo-container">
+	<div class="photo">
+		<img src="./Images/Thumb/thumbnail_6.jpg" alt="err" width="300px" height="169px">
+		<div class="photo-overlay">
+			<h3>Click to Enlarge </h3>
+			<p>We have dozens of toys for sale! signup for our newsletter!</p>
+		</div>
+	</div>
+</div>
+<!-- END PHOTO CONTAINER 6-->
+
+<!-- PHOTO CONTAINER 7-->
+<div class="photo-container">
+	<div class="photo">
+		<img src="./Images/Thumb/thumbnail_7.jpg" alt="err" width="300px" height="169px">
+		<div class="photo-overlay">
+			<h3>Click to Enlarge </h3>
+			<p>We have dozens of toys for sale! signup for our newsletter!</p>
+		</div>
+	</div>
+</div>
+<!-- END PHOTO CONTAINER 7-->
+
+<!-- PHOTO CONTAINER 8-->
+<div class="photo-container">
+	<div class="photo">
+		<img src="./Images/Thumb/thumbnail_8.jpg" alt="err" width="300px" height="169px">
+		<div class="photo-overlay">
+			<h3>Click to Enlarge </h3>
+			<p>We have dozens of toys for sale! signup for our newsletter!</p>
+		</div>
+	</div>
+</div>
+<!-- END PHOTO CONTAINER 8-->
+
+<!-- PHOTO CONTAINER 9-->
+<div class="photo-container">
+	<div class="photo">
+		<img src="./Images/Thumb/thumbnail_9.jpg" alt="err" width="300px" height="169px">
+		<div class="photo-overlay">
+			<h3>Click to Enlarge </h3>
+			<p>We have dozens of toys for sale! signup for our newsletter!</p>
+		</div>
+	</div>
+</div>
+<!-- END PHOTO CONTAINER 9-->
+
 				</div>
 			</div>
 		</section>
-		
-		<!-- RSVP Sign-up newsletter! -->
-		<section>
-			<div id="signup">
-				<div>
-					<h1> Newsletter </h1>
-					<div>
-						<h2><span>Grab your favorite toy now!</span>
-							<br />Sign-up to get updates on new exclusives!
-						</h2>
-					<p> Please provide us with your basic contact information 
+		<!-- END GALLERY -->
+
+		<!-- RSVP-->
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
+						<h2><span>Your new friend is just around the corner!</span>
+						<br>Sign-up Today!
+					</h2>
+					<p class="rsvp-text">
+						Please provide us with your basic contact information
 					</p>
-					
+					<div class="form-rsvp">
+						<form action="" method="post">
+							<input class="rsvp" type="text" value="" placeholder="First Name">
+							<input class="rsvp" type="text" value="" placeholder="Last Name">
+							<input class="rsvp" type="text" value="" placeholder="Email Address">
+							<input class="rsvp" type="text" value="" placeholder="Phone Number">
+							<div class="form-spacer">
+								<label class="terms">Terms and Conditions</label>
+							</div>
+							<div class="submit">
+								<input type="submit" value="Submit">
+							</div>
+						</form>
+
+					</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP-->
+
+		<!-- FOOTER-->
+		<div id="footer">
+			www.infinityandbeyond.toys &nbsp;|&nbsp; &copy; 2021
+		</div>
+		<!-- END FOOTER-->
 		
-		<header>
-		<h1> The Basic HTML Template </h1>
-		<p>Introduction to basic HTML syntax</p>
-		</header>
 	</body>
 </html>
