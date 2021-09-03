@@ -1,2 +1,4 @@
 # Tech-Acadmy-Projects
-This is for my tech academy projects
+These are the projects I have completed during the html and css course on Tech Academy.
+# Projects
+<
