@@ -4,6 +4,7 @@
 		<title>SixFlags</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="./css/one_page_website.css">
+		<script src="./JS/one_page_website.js" defer></script>
 	</head>
 	
 	<body>
@@ -34,34 +35,63 @@
 				<div>
 					
 					<!-- Photo container of rides 1 -->
-					<div>
-						<div>
-						<img src="./Images/ride_1.jfif" alt="error in displaying image">
-							
-						</div>
-					</div>
-					<!-- end of photo container 1 -->
 					
-					<!-- Photo container of rides 2 -->
-					<div>
-						<div>
-						<img src="./Images/ride_2.jpg" alt="error in displaying image">
-							
-						</div>
-					</div>
-					<!-- end of photo container 2 -->
-					
-					<!-- Photo container of rides 3 -->
-					<div>
-						<div>
-						<img src="./Images/ride_3.jpg" alt="error in displaying image">
-							
-						</div>
-					</div>
-					<!-- end of photo container 3 -->
-				</div>
-			</div>
-	</section>
+
+
+<div class="row">
+  <div class="column">
+    <img src="./images/ride_1.jfif" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/ride_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/ride_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+      <img src="./images/ride_1.jfif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+      <img src="./images/ride_2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+      <img src="./images/ride_3.jpg" style="width:100%">
+    </div>
+    
+    
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="./images/ride_1.jfif" style="width:100%" onclick="currentSlide(1)" alt="Superman rollercoaster">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./images/ride_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Aquaman Power Wave">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./images/ride_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Spinner">
+    </div>
+    
+  </div>
+</div>
 	<!-- end gallery -->
 	<!-- video -->
 	<section>
